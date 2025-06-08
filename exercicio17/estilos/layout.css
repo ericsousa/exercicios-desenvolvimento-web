@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8; /* Fundo neutro, quase branco */
+    color: #333333; /* Cinza escuro para texto, ótima legibilidade */
+    max-width: 900px;
+    min-width: 450px;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    background-color: #c82f3c; /* Vermelho principal como cor de destaque */
+    clear: both;
+    color: #ffffff; /* Texto branco para máximo contraste */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 5px;
+}
+
+h2, p {
+    margin: 5px 0;
+}
+
+nav {
+    margin: 10px 0;
+    background-color: rgba(200, 47, 60, 0.1); /* Vermelho com alta transparência */
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #a12530; /* Tom de vermelho mais escuro para os links */
+}
+
+nav ul li a:hover {
+    background-color: rgba(200, 47, 60, 0.2); /* Vermelho um pouco mais opaco no hover */
+}
+
+main {
+    padding-right: 20px;
+    float: left;
+    width: 70%;
+    text-align: justify;
+}
+
+main h1 {
+    font-size: 20px;
+}
+
+main h2 {
+    font-size: 18px;
+}
+
+aside {
+    padding: 10px;
+    float: right;
+    width: 30%;
+    height: 100%;
+    /* Cor complementar (verde-ciano) usada de forma sutil */
+    background-color: rgba(47, 200, 184, 0.1); 
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+article {
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    aside,
+    main {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+    }
+    aside {
+        margin: 10px 0;
+    }
+}

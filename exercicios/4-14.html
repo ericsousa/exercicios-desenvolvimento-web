@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4 a 14</title>
+    <style>
+        pre {
+            background-color: #ddd;
+            border: 1px solid #ccc;
+            border-radius: 10px;;
+            padding-top:15px
+        }
+        strong {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Exercicio 4</h2>
+    
+    <!--
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <style>
+                .special {
+                    color: blue;
+                }
+            </style>
+        </head>
+        <body>
+            <p class="special">My paragraph</p>
+        </body>
+        </html>
+    -->
+    <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+        &lt;style&gt;
+        <strong>
+            .special {
+                color: blue;
+            }
+        </strong>
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;p class=&quot;special&quot;&gt;My paragraph&lt;/p&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+    </pre>
+
+    <h2>Exercicio 5</h2>
+    <!--
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            .intro {
+                background: pink;
+            }
+            .special {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="intro special">My Home Page</h1>
+    </body>
+    </html>
+    -->
+    <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+        &lt;style&gt;
+            .intro {
+                background: pink;
+            }
+            .special {
+                color: red;
+            }
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        <strong>
+            &lt;h1 class=&quot;intro special&quot;&gt;My Home Page&lt;/h1&gt;
+        </strong>
+    &lt;/body&gt;
+    &lt;/html&gt;
+    </pre>
+
+    <h2>Exercicio 6</h2>
+    <!--
+    <form>
+        <input type="button" value="OK">
+    </form> 
+    -->
+    <pre>
+    &lt;form&gt;
+        <strong>&lt;input type=&quot;button&quot; value=&quot;OK&quot;&gt;</strong>
+    &lt;/form&gt;          
+    </pre>
+    
+
+    <h2>Exercicio 7</h2>
+    <!--
+        <pre>
+            <form action="/action_page.php">
+                Nome: <input type="text" name="name">
+                <input type="submit" value="Enviar">
+            </form>
+        </pre>
+    -->
+
+    <pre>
+        &lt;form <strong> action=</strong>&quot;/action_page.php&quot;&gt;
+            Nome: &lt;input type=&quot;text&quot; name=&quot;name&quot;&gt;
+            <strong>&lt;input type=&quot;submit&quot; value=&quot;Enviar&quot;&gt;</strong>
+        &lt;/form&gt;
+    </pre>
+
+
+    <h2>Exercicio 8</h2>
+    <!-- 
+    <form>
+        <input type="radio" name="fav_language" value="html">
+        <input type="radio" name="fav_language" value="css">
+    </form> 
+    -->
+    <pre>
+        &lt;form&gt;
+        <strong>
+            &lt;input type=&quot;radio&quot; name=&quot;fav_language&quot; value=&quot;html&quot;&gt;
+            &lt;input type=&quot;radio&quot; name=&quot;fav_language&quot; value=&quot;css&quot;&gt;
+        </strong>
+        &lt;/form&gt;
+    </pre>
+    
+    <h2>Exercicio 9</h2>
+    <!-- 
+    <form action="/action_page.php"> 
+        <select name="carros">
+            <option value="volvo">Volvo</option>
+            <option value="ford">Ford</option>
+        </select>
+    </form> 
+    -->
+    <pre>
+        &lt;form action=&quot;/action_page.php&quot;&gt; 
+            <strong>
+            &lt;select name=&quot;carros&quot;&gt;
+                &lt;option value=&quot;volvo&quot;&gt;Volvo&lt;/option&gt;
+                &lt;option value=&quot;ford&quot;&gt;Ford&lt;/option&gt;</strong>
+            &lt;/select&gt;
+        &lt;/form&gt; 
+    </pre>
+    
+    <h2>Exercicio 10</h2>
+    <!-- 
+        <form action="/action_page.php"> 
+            <textarea name="nota">Nota:</textarea> 
+        </form> 
+    -->
+    <pre>
+        &lt;form action=&quot;/action_page.php&quot;&gt; 
+            <strong>&lt;textarea name=&quot;nota&quot;&gt;Nota:&lt;/textarea&gt; </strong>
+        &lt;/form&gt; 
+    </pre>
+    
+    <h2>Exercicio 11</h2>
+    <!--
+        <form action="/action_page.php"> 
+            Favorite color: 
+            Blue <input type="radio" name="cor" value="blue"> 
+            Red <input type="radio" name="cor" value="red"> 
+            <input type="submit"> 
+        </form>
+    -->
+    <pre>
+        &lt;form action=&quot;/action_page.php&quot;&gt; 
+            Favorite color: 
+            <strong>Blue &lt;input type=&quot;radio&quot; name=&quot;cor&quot; value=&quot;blue&quot;&gt; 
+            Red &lt;input type=&quot;radio&quot; name=&quot;cor&quot; value=&quot;red&quot;&gt; </strong>
+            &lt;input type=&quot;submit&quot;&gt; 
+        &lt;/form&gt;
+    </pre>
+    
+    <h2>Exercicio 12</h2>
+    <!--
+        <form action="/action_page.php"> 
+            <input type="number" min="1" max="5"> 
+        </form>   
+    -->
+    <pre>
+        &lt;form action=&quot;/action_page.php&quot;&gt; 
+           <strong>&lt;input type=&quot;number&quot; min=&quot;1&quot; max=&quot;5&quot;&gt; </strong>
+        &lt;/form&gt; 
+    </pre>
+    
+    <h2>Exercicio 13</h2>
+    <!--
+        <form action="/action_page.php"> 
+            <input type="hidden"> 
+        </form> 
+    -->
+    <pre>
+        &lt;form action=&quot;/action_page.php&quot;&gt; 
+            <strong>&lt;input type=&quot;hidden&quot;&gt;</strong>
+        &lt;/form&gt; 
+    </pre>
+    
+    <h2>Exercicio 14</h2>
+    <!-- 
+        <form action="/action_page.php"> 
+            <input type="text" max="40" readonly> 
+        </form> 
+    -->
+    <pre>
+        &lt;form action=&quot;/action_page.php&quot;&gt; 
+            <strong>&lt;input type=&quot;text&quot; max=&quot;40&quot; readonly&gt; </strong>
+        &lt;/form&gt; 
+    </pre>
+    
+</body>
+</html>

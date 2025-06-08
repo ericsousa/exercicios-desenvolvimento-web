@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+    <style>
+        .container {
+            width:600px;
+            display:flex;
+        }
+        fieldset {
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#">
+        <fieldset class="container">
+            <legend>Personal Details</legend>
+            <fieldset>
+                <legend>Address Details</legend>
+                <p>
+                    <label for="city">City:</label>
+                    <input type="text" name="city">
+                </p>
+                <p>
+                    <label for="zip-code">Zip Code:</label>
+                    <input type="text" name="zip-code">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Telephone Details</legend>
+                <p>
+                    <label for="home">Home:</label>
+                    <input type="text" name="home">
+                </p>
+                <p>
+                    <label for="cell">Cell:</label>
+                    <input type="text" name="cell">
+                </p>
+            </fieldset>
+        </fieldset>
+    </form>
+</body>
+</html>

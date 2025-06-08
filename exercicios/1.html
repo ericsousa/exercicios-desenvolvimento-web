@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main {
+            width: 400px;
+            margin: 0 auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 5px;
+            margin: 10px 0;
+        }
+        input[type="submit"] {
+            width: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Deixe um comentário</h1>
+        <form action="#">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" required>
+            <label for="website">Website:</label>
+            <input type="text" name="website" id="website" required>
+            <label for="comentario">Cometário</label>
+            <textarea name="comentario" id="comentario"></textarea>
+            <p>Observação: Seu comentário será publicado após passar pelo moderador</p>
+            <input type="submit" value="Enviar Comentário">
+        </form>
+    </main>
+</body>
+</html>

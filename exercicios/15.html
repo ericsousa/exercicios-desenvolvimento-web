@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 15</title>
+    <style>
+        table {
+            text-align: center;
+        }
+        thead,
+        tfoot {
+            color: blue;
+            font-style: italic;
+            font-weight: bold;
+        }
+        tbody tr td {
+            background-color: yellow;
+            color: green;
+        }
+        tbody tr td:first-child,
+        tbody tr td:last-child {
+            font-weight: bold;
+            color: black;
+            font-style: italic;
+        }
+        tbody tr td:first-child{
+            background:pink;
+        }
+        tbody tr td:last-child {
+            background:red;
+        }
+    </style>
+</head>
+<body>
+    <p>Disciplina de Análise Matemática</p>
+    <p></p>
+    <table border="1">
+        <thead>
+            <caption>Notas de 1999/2000</caption>
+            <tr>
+                <td>Aluno</td>
+                <td>Frequência</td>
+                <td>1ª Chamada</td>
+                <td>2ª Chamada</td>
+                <td>Final</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>12.3</td>
+                <td>14.2</td>
+                <td></td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>11.5</td>
+                <td>12.2</td>
+                <td></td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>Rui Manuel</td>
+                <td>12.5</td>
+                <td>13.2</td>
+                <td></td>
+                <td>13</td>
+            </tr>
+        </tbody>
+            <tfoot>
+                <tr>
+                <td colspan="4">Média</td>
+                <td>13.3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
